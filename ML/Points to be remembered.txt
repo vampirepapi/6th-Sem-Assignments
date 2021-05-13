@@ -1,0 +1,22 @@
+#Assignment-1
+..............................................................
+
+venv creation:-
+virtualenv mlenv
+mlenv/Scripts/activate
+..now head to files folder
+----------------------------------------------------------------
+alt. choices could be collab
+----------------------------------------------------------------
+You should not use a single backslash because is a special character.
+try:-
+data = pd.read_csv("C:/Users/vampirepapi/Desktop/nowhere/6th-LABS/ML/data.csv")
+-----------------------------------------------------------------
+no need to specify python verison in venv
+-----------------------------------------------------------------
+#importing files from local from collab
+
+from google.colab import files
+uploaded = files.upload()
+------------------------------------------------------------------
+
